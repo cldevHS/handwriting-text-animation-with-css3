@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body { 
+    background-image: url(https://i.postimg.cc/L8qNDsC8/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    
+}
+#container {
+  width: 80%;
+  margin: 20px auto;
+  min-height: 700px;
+    margin-top: 150px;
+}
+#container svg {
+  min-height: 700px;
+}
+.hidden {
+  width: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+@keyframes new
+{
+  0%
+  {
+    transform:scaleX(1);
+  }
+  50%
+  {
+    transform:scaleX(.95);
+  }
+  100%
+  {
+    transform:scaleX(1);
+  }
+}
